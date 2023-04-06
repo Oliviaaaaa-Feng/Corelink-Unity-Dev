@@ -1,0 +1,23 @@
+{
+  "name": "simple_udp_sender",
+  "version": "1.0.0",
+  "description": "example for a simple UDP sender",
+  "main": "simple_udp_sender.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://dev.hpc.nyu.edu/corelink/corelink-examples.git"
+  },
+  "keywords": [
+    "corelink",
+    "nodejs",
+    "example"
+  ],
+  "author": "Robert Pahle, Sachin Iyer",
+  "license": "MIT",
+  "dependencies": {
+    "corelink-client": "^5.1.4"
+  }
+}
