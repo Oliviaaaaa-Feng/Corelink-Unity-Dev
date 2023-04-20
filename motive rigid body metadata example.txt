@@ -1,0 +1,86 @@
+
+RigidBody (Bone) Count : 21
+  RigidBody Name : Skeleton 02_Hip
+  RigidBody ID : 1
+  RigidBody Parent ID : 0
+  Parent Offset : -0.00,0.80,0.00
+  RigidBody Name : Skeleton 02_Ab
+  RigidBody ID : 2
+  RigidBody Parent ID : 1
+  Parent Offset : -0.00,0.07,0.00
+  RigidBody Name : Skeleton 02_Chest
+  RigidBody ID : 3
+  RigidBody Parent ID : 2
+  Parent Offset : -0.00,0.14,0.00
+  RigidBody Name : Skeleton 02_Neck
+  RigidBody ID : 4
+  RigidBody Parent ID : 3
+  Parent Offset : -0.00,0.16,0.00
+  RigidBody Name : Skeleton 02_Head
+  RigidBody ID : 5
+  RigidBody Parent ID : 4
+  Parent Offset : -0.00,0.13,0.02
+  RigidBody Name : Skeleton 02_LShoulder
+  RigidBody ID : 6
+  RigidBody Parent ID : 3
+  Parent Offset : 0.03,0.11,-0.01
+  RigidBody Name : Skeleton 02_LUArm
+  RigidBody ID : 7
+  RigidBody Parent ID : 6
+  Parent Offset : 0.16,0.00,0.00
+  RigidBody Name : Skeleton 02_LFArm
+  RigidBody ID : 8
+  RigidBody Parent ID : 7
+  Parent Offset : 0.25,0.00,0.00
+  RigidBody Name : Skeleton 02_LHand
+  RigidBody ID : 9
+  RigidBody Parent ID : 8
+  Parent Offset : 0.19,0.00,0.00
+  RigidBody Name : Skeleton 02_RShoulder
+  RigidBody ID : 10
+  RigidBody Parent ID : 3
+  Parent Offset : -0.03,0.11,-0.01
+  RigidBody Name : Skeleton 02_RUArm
+  RigidBody ID : 11
+  RigidBody Parent ID : 10
+  Parent Offset : -0.16,0.00,0.00
+  RigidBody Name : Skeleton 02_RFArm
+  RigidBody ID : 12
+  RigidBody Parent ID : 11
+  Parent Offset : -0.25,0.00,0.00
+  RigidBody Name : Skeleton 02_RHand
+  RigidBody ID : 13
+  RigidBody Parent ID : 12
+  Parent Offset : -0.19,0.00,0.00
+  RigidBody Name : Skeleton 02_LThigh
+  RigidBody ID : 14
+  RigidBody Parent ID : 1
+  Parent Offset : 0.09,0.00,0.00
+  RigidBody Name : Skeleton 02_LShin
+  RigidBody ID : 15
+  RigidBody Parent ID : 14
+  Parent Offset : -0.00,-0.44,0.00
+  RigidBody Name : Skeleton 02_LFoot
+  RigidBody ID : 16
+  RigidBody Parent ID : 15
+  Parent Offset : -0.00,-0.31,0.00
+  RigidBody Name : Skeleton 02_RThigh
+  RigidBody ID : 18
+  RigidBody Parent ID : 1
+  Parent Offset : -0.09,0.00,0.00
+  RigidBody Name : Skeleton 02_RShin
+  RigidBody ID : 19
+  RigidBody Parent ID : 18
+  Parent Offset : -0.00,-0.44,0.00
+  RigidBody Name : Skeleton 02_RFoot
+  RigidBody ID : 20
+  RigidBody Parent ID : 19
+  Parent Offset : -0.00,-0.31,0.00
+  RigidBody Name : Skeleton 02_LToe
+  RigidBody ID : 17
+  RigidBody Parent ID : 16
+  Parent Offset : -0.00,-0.06,0.13
+  RigidBody Name : Skeleton 02_RToe
+  RigidBody ID : 21
+  RigidBody Parent ID : 20
+  Parent Offset : -0.00,-0.06,0.13
