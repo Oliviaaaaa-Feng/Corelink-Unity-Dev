@@ -13,6 +13,11 @@ This is a simple example of sending real-time data using node.js sender and rece
 - Use C# receiver to receive the data in Unity
 - Apply data on a sphere GameObject to make it pulse
 
+## Steps
+- Download the Unity package and open in Unity
+- Run simple_udp_sender_pulsing.js
+- Click on play in Unity
+
 ## simple_udp_sender_pulsing
 Installation
 
@@ -22,7 +27,7 @@ Installation
 
 You can use username: `Testuser`, password: `Testpassword`, and Control IP: `corelink.hpc.nyu.edu`. After running this .js file, you should receive real-time data from 1 to 10 than back to 1.
 
-## Receiver
+## Receiver.cs
 
 This is a script attached to the sphere GameObject that inherites from ReceiverStream.cs. It will receive the real-time data from simple_udp_sender_pulsing.js and convert the data type using `OnMessage()`. Then, apply it on the sphere using `Update()`.
 

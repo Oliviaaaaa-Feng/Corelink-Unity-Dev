@@ -12,6 +12,12 @@ This is an example of receiving real-time motion tracking data from Motive and a
 - Use C# receiver to receive the data in Unity
 - Split the data and apply on separate bones
 
+## Steps
+- Download the SphereVersion.unitypackage and open in Unity
+- Run Motive (a motion capture software) on a machine
+- Run sampleClient.cpp on that machine to decode and transfer data
+- Click on play in Unity
+
 ## Receiver.cs
 
 This is a script attached to the GameObject that inherites from ReceiverStream.cs. It will generate 21 sphere at the begining. Then, It will receive the real-time data from sampleClient.cpp and convert the data type using `OnMessage()`. Then, apply it on the sphere using `Update()`.
