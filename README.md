@@ -1,7 +1,7 @@
-# Corelink Unity Dev
+# Real-Time MoCap to Unity via Corelink
 
 ## Overview
-Corelink Unity Dev is a project that demonstrates the integration of real-time motion tracking data into Unity using the [Corelink server](https://corelink.hsrn.nyu.edu/). The project processes 3D motion capture (MoCap) data, encodes it in C++, and decodes it in Unity for visualization and interaction with 3D skeletal models. This system enables real-time applications such as virtual reality (VR), gaming, and live animation.
+This is a project that demonstrates the integration of real-time motion tracking data into Unity using the [Corelink server](https://corelink.hsrn.nyu.edu/). The project processes 3D motion capture (MoCap) data, encodes it in C++, and decodes it in Unity for visualization and interaction with 3D skeletal models. This system enables real-time applications such as virtual reality (VR), gaming, and live animation.
 
 ## Key Features
 - **Real-time Data Transmission**: Seamless transfer of motion tracking data from a Node.js sender to Unity via the Corelink server.
