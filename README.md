@@ -4,7 +4,7 @@
 This is a project that demonstrates the integration of real-time motion tracking data into Unity using the [Corelink server](https://corelink.hsrn.nyu.edu/). The project processes 3D motion capture (MoCap) data, encodes it in C++, and decodes it in Unity for visualization and interaction with 3D skeletal models. This system enables real-time applications such as virtual reality (VR), gaming, and live animation.
 
 ## Key Features
-- **Real-time Data Transmission**: Seamless transfer of motion tracking data from a Node.js sender to Unity via the Corelink server.
+- **Real-time Data Transmission**: Seamless transfer of motion tracking data from a real person to Unity via the Corelink server.
 - **MoCap Integration**: Utilizes OptiTrack's Motive to capture motion data, decode it using C++, and apply it to Unity skeletal models.
 - **3D Skeletal Animation**: Supports 21-bone skeleton models with precise position and rotation tracking.
 - **Custom Visualization**: Provides Unity packages for rendering and interacting with motion data.
